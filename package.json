@@ -1,12 +1,30 @@
 {
-	"private": true,
-	"scripts": {},
-	"devDependencies": {
-		"nodemon": "^2.0.4"
-	},
-	"dependencies": {
-		"express": "^4.17.1",
-		"knex": "^0.21.1",
-		"sqlite3": "^4.2.0"
-	}
+  "private": true,
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
+  },
+  "name": "node-api2-guided",
+  "description": "Guided project for **Node API 2** module.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miragekamran/node-api2-guided.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miragekamran/node-api2-guided/issues"
+  },
+  "homepage": "https://github.com/miragekamran/node-api2-guided#readme"
 }
